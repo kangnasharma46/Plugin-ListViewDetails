@@ -1,0 +1,62 @@
+{
+  "name": "list-view-details",
+  "description": "A highly customizable List View Details component for React applications. This package provides an efficient and flexible way to display data in a detailed, organized, and user-friendly list view.",
+  "keywords": ["list details", "list view", "list view details"],
+  "author": "Kangna Sharma kangnasharma46@gmail.com",
+  "version": "1.0.7",
+   "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.104",
+    "@types/react-router-dom": "^5.3.3",
+    "react-router-dom": "^6.25.1",
+    "react-scripts": "5.0.1"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build:css": "postcss src/tailwind.css -o dist/tailwind.css",
+    "build": "npm run build:css && tsc",
+    "prepare": "npm run build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.39",
+    "postcss-cli": "^11.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^3.4.6",
+    "typescript": "^4.9.5"
+  }
+}
