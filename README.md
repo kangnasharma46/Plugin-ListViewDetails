@@ -1,8 +1,8 @@
 ## Introduction
 Here is an image showcasing the feature:
 
-<img src="./src/assets/dummy.png" alt="Feature" width="200" height="400">
-<img src="./src/assets/dummy1.png" alt="Feature" width="200" height="400">
+<img src="./src/assets/dummy.png" alt="Feature" width="400" height="600">      <img src="./src/assets/dummy1.png" alt="Feature" width="400" height="600">
+
 
 List View Details
 
