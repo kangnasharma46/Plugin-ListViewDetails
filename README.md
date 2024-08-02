@@ -1,8 +1,8 @@
 ## Introduction
 Here is an image showcasing the feature:
 
-![Feature](./src/assets/dummy.png =50x80)
-![Feature](./src/assets/dummy1.png =50x80)
+![Feature](./src/assets/dummy.png)
+![Feature](./src/assets/dummy1.png)
 
 
 List View Details
