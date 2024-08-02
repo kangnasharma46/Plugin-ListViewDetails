@@ -1,3 +1,10 @@
+## Introduction
+Here is an image showcasing the feature:
+
+![Feature](./src/assets/dummy.png)
+![Feature](./src/assets/dummy1.png)
+
+
 List View Details
 
 A highly customizable List View Details component for React applications. This package provides an efficient and flexible way to display data in a detailed, organized, and user-friendly list view.
@@ -18,6 +25,7 @@ To install the package, use npm or yarn:
  import { Item } from 'list-view-details'
  
 Below is example to pass data to plugin.
+
  const data = [
   {
     id:1,
@@ -27,4 +35,6 @@ Below is example to pass data to plugin.
     price: '20'
     }
 ];
+
+
 <Item items={data} />
