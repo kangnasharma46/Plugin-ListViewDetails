@@ -1,9 +1,8 @@
 ## Introduction
 Here is an image showcasing the feature:
 
-![Feature](./src/assets/dummy.png)
-![Feature](./src/assets/dummy1.png)
-
+<img src="./src/assets/dummy.png" alt="Feature" width="200" height="400">
+<img src="./src/assets/dummy1.png" alt="Feature" width="200" height="400">
 
 List View Details
 
