@@ -3,7 +3,7 @@
   "description": "A highly customizable List View Details component for React applications. This package provides an efficient and flexible way to display data in a detailed, organized, and user-friendly list view.",
   "keywords": ["list details", "list view", "list view details","React","Typescipt","Props","Tailwindcss"],
   "author": "Kangna Sharma kangnasharma46@gmail.com",
-  "version": "1.0.13",
+  "version": "1.0.14",
    "license": "MIT",
   "private": false,
   "dependencies": {
@@ -16,6 +16,11 @@
     "react-router-dom": "^6.25.1",
     "react-scripts": "5.0.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kangnasharma46/Plugin-ListViewDetails.git"
+  },
+   "homepage": "https://github.com/kangnasharma46/Plugin-ListViewDetails.git#readme",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
