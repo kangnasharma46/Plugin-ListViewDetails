@@ -36,5 +36,4 @@ Below is example to pass data to plugin.
     }
 ];
 
-
 <Item items={data} />
