@@ -5,6 +5,8 @@ export interface ItemProps {
   id?: number;
   quantity: number;
   price?: string;
+  rating?: string;
+  count?: string;
   onIncrement: () => void;
   onDecrement: () => void;
   addCart: () => void;

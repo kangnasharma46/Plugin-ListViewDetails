@@ -26,7 +26,9 @@ import ItemComponent from './ItemComponent';
           imageUrl={item?.imageUrl}
           name={item.name}
           description={item?.description}
-          quantity = {quantities[index]}
+          quantity={quantities[index]}
+          rating={item?.rating}
+          count={item?.count}
           price={item.price}
           onIncrement={() => handleIncrement(index)}
           onDecrement={() => handleDecrement(index)}
