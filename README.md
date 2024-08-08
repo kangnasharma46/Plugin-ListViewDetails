@@ -26,13 +26,24 @@ To install the package, use npm or yarn:
 Below is example to pass data to plugin.
 
  const data = [
+
   {
-    id:1,
+    id:2,
     imageUrl: 'https://picsum.photos/200/300/?blur=2',
-    name: 'Item 1',
-    description: 'This is the subheading for item 2.This is the subheading for item 2.This is the subheading for item 2.This is the subheading for item 2.This is the subheading for item 2.This is the subheading for item 2.This is the subheading for item 2.This is the subheading for item 2.This is the subheading for item 2.This is the subheading for item 2.This is the subheading for item 2.This is the subheading for item 2',
-    price: '20'
+    name: 'Item 2',
+    price: '20',
+    }, {
+    id:3,
+    name: 'Item 3',
+    description: 'This is the subheading for item 3.This is the subheading for item 3.This is the subheading for item 3.This is the subheading for item 3.This is the subheading for item 3.This is the subheading for item 3.This is the subheading for item 3.This is the subheading for item 3.This is the subheading for item 3.',
+    price: '120',
+    quantity:0
     }
 ];
 
-<Item items={data} />
+{data.map((item, index) => {
+          return <Item imageUrl={item?.imageUrl} name={item?.name} description={item?.description} price={item?.price} quantity={quantities[index]}
+            onIncrement={() => handleIncrement(index)}
+            onDecrement={() => handleDecrement(index)}
+            addCart={() => handleAddCart(index)} />
+         }

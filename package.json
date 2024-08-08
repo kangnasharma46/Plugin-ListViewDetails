@@ -3,7 +3,7 @@
   "description": "A highly customizable List View Details component for React applications. This package provides an efficient and flexible way to display data in a detailed, organized, and user-friendly list view.",
   "keywords": ["list details", "list view", "list view details","React","Typescipt","Props","Tailwindcss"],
   "author": "Kangna Sharma kangnasharma46@gmail.com",
-  "version": "1.0.18",
+  "version": "1.0.20",
    "license": "MIT",
   "private": false,
   "dependencies": {
