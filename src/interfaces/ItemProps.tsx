@@ -1,17 +1,11 @@
 export interface ItemProps {
-  imageUrl?: string;
-  name?: string;
-  description?: string;
-  id?: number;
-  quantity: number;
-  price?: string;
-  rating?: string;
-  count?: string;
+  imageUrl?: string | undefined;
+  name?: string | undefined;
+  description?: string | undefined;
+  id?: number | undefined;
+  quantity?: number | undefined;
+  price?: string | undefined;
   onIncrement: () => void;
   onDecrement: () => void;
   addCart: () => void;
-}
-
-export interface ItemListProps {
-  items: Omit<ItemProps , 'quantity' | 'onIncrement' | 'onDecrement' | 'addCart'>[];
 }
